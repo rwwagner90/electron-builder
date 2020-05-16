@@ -279,5 +279,5 @@ function isBrowserSandboxAllowed(snap: any): boolean {
 function getDefaultStagePackages() {
   // libxss1 - was "error while loading shared libraries: libXss.so.1" on Xubuntu 16.04
   // noinspection SpellCheckingInspection
-  return ["libnspr4", "libnss3", "libxss1", "libappindicator3-1", "libsecret-1-0"]
+  return ["libnspr4", "libnss3", "libxss1", "libappindicator3-1", "libsecret-1-0", "libgiblib.so.1"]
 }
